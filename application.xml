@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application>
+    <langs support="en" default="en"></langs>
+    <api use="on">
+        <ifs>
+            <if class="apiBuilderLib" permission="off" desc="Api for the builder library"></if>
+            <if class="apiGetAdminSettings" permission="off" desc="Api for getting saved settings for front"></if>
+        </ifs>
+    </api>
+    <admin use="on" index="adminPageSettings">
+        <ifs>
+            <if class="adminPageSettings" permission="off" desc="Gets and sends data from form"></if>
+            <if class="adminExecSettings" permission="off" desc="Connects to database to insert data"></if>
+            <if class="adminAdvanced" permission="off" desc="Advanced page"></if>
+            <if class="adminPageManage" permission="off" desc="Sequence mange page"></if>
+        </ifs>
+        <menus>
+        </menus>
+    </admin>
+    <front use="on">
+        <ifs>
+            <if class="frontPageTodaysQuotes" permission="off" code-assist="on" desc="Detail block"></if>
+            <if class="frontPageNoRecord" permission="off" code-assist="on" desc="No record block"></if>
+        </ifs>
+    </front>
+</application>

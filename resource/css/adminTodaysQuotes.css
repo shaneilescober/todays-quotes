@@ -1,0 +1,8 @@
+.todaysquotes_tbl 				{width:100%;margin-bottom: 10px;}
+.todaysquotes_tbl td 			{padding:5px;}
+.label							{width:10%;}
+.options						{width:90%}
+.options .display_title			{width:30%;height:20px;}
+.display_opt1, .display_opt2	{display:inline; width:30%; float:left}
+.display_opt1					{margin-bottom:20px}
+

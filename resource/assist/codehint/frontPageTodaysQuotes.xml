@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codehint>
+    <var value="tqc_quotes" name="Class name for enclosign div for quotes"></var>
+    <var value="tqc_title" name="Class name for enclosign div for title"></var>
+    <var value="tq_title" name="Title displayed"></var>
+    <var value="tq_script" name="Included script to display quotes"></var>
+</codehint>

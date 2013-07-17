@@ -1,0 +1,6 @@
+.tqpFooter, .tqpHeader {display:none}
+.tqpQuote {font-style: italic; border-top:thin solid #d9d9d9; padding-top:10px}
+.tqpAuthor {margin-left:-40px; text-decoration:none; color:#000000}
+.tqc_title {font-weight:bold; font-size:12px}
+p {margin-bottom:10px}
+dl {margin-top:-10px}
